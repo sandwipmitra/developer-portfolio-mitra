@@ -1,7 +1,13 @@
 body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+    /* overflow: auto; */
+
+
 }
 
 h1 {
@@ -16,19 +22,74 @@ h1 {
 
 .upper-sec {
     display: flex;
-    margin-top: 2em;
     margin-bottom: 10em;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+
 }
 
 .middle-sec {
     display: flex;
     margin-bottom: 10em;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .descrip-1 {
     margin-top: 2em;
+    width: 50%;
+}
+
+.img-1 {
+    width: 50%;
+    margin-top: 4em;
 }
 
 .descrip-2 {
     margin-top: 2em;
+    width: 50%;
+}
+
+.img-2 {
+    width: 50%;
+    margin-top: 4em;
+}
+}
+
+.descrip-2 {
+    margin-top: 2em;
+}
+
+tfoot {
+    margin-top: 8em;
+    align-items: center;
+}
+
+.exp {
+    display: flex;
+    margin-bottom: 10em;
+}
+
+.img-3 {
+    width: 50%;
+    margin-top: 4em;
+}
+
+.btn {
+
+    font-size: 1.2em;
+    font-weight: 800;
+    /* background-color: #ffac33; */
+    background: linear-gradient(hsl(186, 76%, 16%), hsl(223, 90%, 60%), hsl(240, 56%, 42%));
+    box-shadow: 0 0 10px 5 hsla(223, 59%, 31%, 0.5);
+
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.hire-me {
+    margin-top: 3em;
 }
