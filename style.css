@@ -1,18 +1,24 @@
 body {
     margin: 0 auto;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     /* overflow: auto; */
+    overflow-x: hidden;
 
 
 }
 
+/* section {
+    display: flex;
+} */
+
+
 h1 {
     font-size: 3.5rem;
-    font-weight: ;
+
 }
 
 .sm {
@@ -20,16 +26,14 @@ h1 {
     font-weight: 500;
 }
 
-.upper-sec {
+.welcome {
     display: flex;
     margin-bottom: 10em;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-
-
 }
 
-.middle-sec {
+.big-dream {
     display: flex;
     margin-bottom: 10em;
     background-image: url(images/dream-bg.png);
@@ -37,44 +41,26 @@ h1 {
     background-position: right;
 }
 
-.descrip-1 {
-    margin-top: 2em;
+.half-width-1 {
     width: 50%;
+    padding-left: 5%;
 }
 
-.img-1 {
+.half-width-2 {
     width: 50%;
-    margin-top: 4em;
+    padding-right: 5%;
 }
 
-.descrip-2 {
-    margin-top: 2em;
-    width: 50%;
-}
-
-.img-2 {
-    width: 50%;
-    margin-top: 4em;
-}
-}
-
-.descrip-2 {
-    margin-top: 2em;
-}
-
-tfoot {
-    margin-top: 8em;
-    align-items: center;
+.half-width-2 img {
+    width: 100%;
 }
 
 .exp {
     display: flex;
     margin-bottom: 10em;
-}
-
-.img-3 {
-    width: 50%;
-    margin-top: 4em;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    /* background-position: calc(0%-100%); */
 }
 
 .btn {
@@ -92,4 +78,14 @@ tfoot {
 
 .hire-me {
     margin-top: 3em;
+}
+
+.ftr {
+    padding: 4rem 0;
+    background-color: aliceblue;
+}
+
+footer p {
+    text-align: center;
+
 }
